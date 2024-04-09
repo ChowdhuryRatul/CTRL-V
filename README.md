@@ -29,36 +29,23 @@ python VE2_pyrosetta_workflow.py --config ve_config.ve
 
 ## Config file parameter.
 
+Checkout example config file in ```./CTRL-V/examples```
+
 | Config parameter | description |
 | :---:   | :---: |
-| Seconds | 301   |
+| JobName | The CTRL-V job name, results from CTRL-V will be saved in a new directory with <JobName>. |
+| AbComplex |  The pdb path to antigen-antibody complex file, for example ```./pdbs/LY-CoV1404_clean.pdb```.  |
+| AbChain |  The partner chain information for antigen-antibody complex given, use format ```<antibody chain>_<antigen chain>```, for example ```AB_C```.  |
+| A2Complex |  The pdb path to antigen-receptor complex file, for example ```./pdbs/6M0J_clean.pdb```.  |
+| A2Chain |  The partner chain information for antigen-receptor complex given, use format ```<receptor chain>_<antigen chain>```, for example ```A_E```.  |
+| EpitopeWindow |  A list of epitope position for antigen protein in both complex, use format ```<position>,<position>,...```, for example ```444,371,368,446```. Empty input will causes CTRL-V to calculate epitope windows on its own. |
+| Mutations |  The number of mutations(single point mutation) for each parent antigen protein, for example ```3``` will allow for 3 mutations per wildtype/variants in each generation. |
+| MaxGeneration |  The number of generation to simulate, for example ```3``` will simulate mutation for up to the 3rd generation. |
+| useGivenWindow |  Input value: ```[Yes/No]```, Yes: indicate wildtype/variants will always use given ```EpitopeWindow``` value, No: allows CTRL-V to recalculate Epitope Window. |
+| relaxPose |  Input value: ```[Yes/No]```, Yes: indicate variants will be relax using PyRosetta, No: disable relax pose.  |
+| AllowRepeatMutation |  Input value: ```[Yes/No]```, Yes: enable mutation to the same position, No: disable mutation to the same position  |
+| UseMPNN |  Accepts empty value, ```No``` or a list of single point mutation, for example ```444R,444K,444T,444A,444Q,371D,371F,371L,371N,368I,368V,368L,446G,446S,446N```.  |
+| EnergyWindow |  Accepts a list of two number, for example ```-100,100```, use ```-100,100``` as default. |
+| SortRankAg-Ab |  Input value: ```[Ascending/Descending]```, indicate ranking single point mutations for antigen against antibody in either ascending or descending based on energy value. use ```Ascending``` as default  |
+| SortRankAg-R |  Input value: ```[Ascending/Descending]```, indicate ranking single point mutations for antigen against receptor in either ascending or descending based on energy value. use ```Ascending``` as default  |
 
-JobName          :<Jobname>
-
-AbComplex:pdbs/LY-CoV1404_clean.pdb
-
-AbChain:AB_C
-
-A2Complex:pdbs/6M0J_clean.pdb
-
-A2Chain:A_E
-
-EpitopeWindow:444,371,368,446
-
-Mutations:3
-
-MaxGeneration:3
-
-useGivenWindow:Yes
-
-relaxPose:No
-
-AllowRepeatMutation:No
-
-UseMPNN:No
-
-EnergyWindow:-60,-10
-
-SortRankAg-Ab:Ascending
-
-SortRankAg-R:Ascending
