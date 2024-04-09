@@ -29,3 +29,36 @@ python VE2_pyrosetta_workflow.py --config ve_config.ve
 
 ## Config file parameter.
 
+| Config parameter | description |
+| :---:   | :---: |
+| Seconds | 301   |
+
+JobName          :<Jobname>
+
+AbComplex:pdbs/LY-CoV1404_clean.pdb
+
+AbChain:AB_C
+
+A2Complex:pdbs/6M0J_clean.pdb
+
+A2Chain:A_E
+
+EpitopeWindow:444,371,368,446
+
+Mutations:3
+
+MaxGeneration:3
+
+useGivenWindow:Yes
+
+relaxPose:No
+
+AllowRepeatMutation:No
+
+UseMPNN:No
+
+EnergyWindow:-60,-10
+
+SortRankAg-Ab:Ascending
+
+SortRankAg-R:Ascending
