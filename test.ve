@@ -1,4 +1,4 @@
-JobName:TempTestJob
+JobName:test_job
 AbComplex:pdbs/LY-CoV1404_clean.pdb
 AbChain:AB_C
 A2Complex:pdbs/6M0J_clean.pdb
@@ -9,7 +9,7 @@ MaxGeneration:3
 useGivenWindow:Yes
 relaxPose:No
 AllowRepeatMutation:No
-UseMPNN:No
+UseMPNN:444R,444K,444T,444A,444Q,371D,371F,371L,371N,368I,368V,368L,446G,446S,446N
 EnergyWindow:-60,-10
 SortRankAg-Ab:Ascending
 SortRankAg-R:Ascending
