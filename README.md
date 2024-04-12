@@ -1,4 +1,4 @@
-[alt text](https://github.com/YeeChuen/CTRL-V/CTRL-V_logo_2.png?raw=true)
+![alt text](https://github.com/YeeChuen/CTRL-V/CTRL-V_logo_2.png?raw=true)
 # CTRL-V
 Computationally tracking of likely viral escape variants by iterative optimization. Official github repo for CTRL-V software.
 
