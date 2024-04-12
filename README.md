@@ -12,7 +12,7 @@ In response, the human immune system generates B-cells and T-cells to protect ag
 
 To this end, we introduce a simulation platform, CTRL-V (Computational Tracking of Likely Viral Escape variants), that iteratively model the viral escape process of a viral antigenic protein when confronted with human antibodies. We show a test case demonstration in correctly recovering the infective strains of SARS-CoV-2 starting with the wildtype spike receptor-binding domain against known commercial neutralizing antibodies. CTRL-V unveils a putative viral mutational landscape by leveraging only the information about the antibody-antigen complex structure and amino acid interaction preferences in proteins. This information is critical to surveillance and antibody design strategies for preventing viral diseases in humans and livestock.
 
-## Installation
+## Installation & Usage
 
 1. Download PyRosetta software as directed on [PyRosetta](https://www.pyrosetta.org/downloads)
 
