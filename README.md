@@ -29,14 +29,14 @@ To this end, we introduce a simulation platform, CTRL-V (Computational Tracking 
 git clone https://github.com/YeeChuen/CTRL-V
 ```
 
-3. Add pdbs to the pdb files directory.
+3. Add pdbs to the pdb files directory,
 ```
 cd ./CTRL-V/pdbs
 ```
 
 4. Create a config file, following the example and parameters in ```test.ve```
 
-5. Run CTRL-V using
+5. Run CTRL-V using,
 ```
 python VE2_pyrosetta_workflow.py --config ve_config.ve
 ```
