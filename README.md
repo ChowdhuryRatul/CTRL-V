@@ -7,6 +7,10 @@ Official github repo for CTRL-V software.
 Official webserver on Google Collab:
 - [CTRL-V](https://colab.research.google.com/drive/1YWHpwb-8hn7VPOSCAl4jMeRXOJn1zt8m?usp=sharing)
 
+Official publication for CTRL-V:
+- To be updated. (ProQuest)
+- Bioinformatics Journal.
+
 ## Abstract
 
 SARS-CoV-2 emerged in China In late 2019 and has since had a profound global impact, infecting over 670 million individuals and resulting in more than 6.8 million fatalities by 2023. Although vaccines have demonstrated effectiveness against the native SARS-CoV-2 strain and its variants, the Omicron variant has emerged as the predominant variant due to critical mutations in its spike protein. These mutations have led to an increase in binding affinity to human cell receptor ACE2 (angiotensin-converting enzyme 2), allowing for viral entry and antigen replication within the host. 
