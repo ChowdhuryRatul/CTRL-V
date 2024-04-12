@@ -21,7 +21,7 @@ To this end, we introduce a simulation platform, CTRL-V (Computational Tracking 
 
 ## Installation & Usage
 
-1. Download PyRosetta software as directed on [PyRosetta](https://www.pyrosetta.org/downloads)
+1. Download PyRosetta software as directed on [PyRosetta](https://www.pyrosetta.org/downloads).
 
 2. Clone the repository to directory location,
 
@@ -34,7 +34,7 @@ git clone https://github.com/YeeChuen/CTRL-V
 cd ./CTRL-V/pdbs
 ```
 
-4. Create a config file, following the example and parameters in ```test.ve```
+4. Create a config file, following the example and parameters in ```test.ve```.
 
 5. Run CTRL-V using,
 ```
@@ -43,7 +43,7 @@ python VE2_pyrosetta_workflow.py --config ve_config.ve
 
 ## Config file parameter.
 
-Checkout example config file in ```./CTRL-V/examples```
+Checkout more example config file in ```./CTRL-V/examples```.
 
 | Config parameter | description |
 | :---:   | :---: |
