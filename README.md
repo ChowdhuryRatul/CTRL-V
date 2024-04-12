@@ -1,6 +1,7 @@
 ![CTRL-V logo](https://github.com/YeeChuen/CTRL-V/blob/main/CTRL-V_logo_2.png?raw=true)
-# CTRL-V
-Computationally tracking of likely viral escape variants by iterative optimization. Official github repo for CTRL-V software.
+# CTRL-V: Computational Tracking of Likely Viral Escape Variant by Iterative Optimization
+
+Official github repo for CTRL-V software.
 
 Official webserver on Google Collab:
 - [CTRL-V](https://colab.research.google.com/drive/1YWHpwb-8hn7VPOSCAl4jMeRXOJn1zt8m?usp=sharing)
