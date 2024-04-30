@@ -389,6 +389,8 @@ def getAllMutationScore(pdb_name, partner_chain, epitope_window,
                     continue # <-- skip if there is no such key in MPNN.
                 #if key[-1] not in MPNN[key[:-1]]: 
                 #    continue # <-- skip if the mutation is not in MPNN's prediction.
+                if curr_numbering not in epitope_window:
+                    continue # <-- skip if the pdb number is not part of the window.
             elif curr_numbering not in epitope_window:
                 #print("Not in window issue", curr_numbering) # <-- development and debug purposes
                 continue # <-- skip if the pdb number is not part of the window.
