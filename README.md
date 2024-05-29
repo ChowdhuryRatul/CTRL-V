@@ -6,7 +6,7 @@ Official github repo for CTRL-V software.
 - [Github repo](https://github.com/ChowdhuryRatul/CTRL-V)
 
 Official webserver on Google Collab:
-- [CTRL-V](https://colab.research.google.com/drive/1YWHpwb-8hn7VPOSCAl4jMeRXOJn1zt8m?usp=sharing)
+- [CTRL-V](https://colab.research.google.com/drive/1Pkw8MNW4uGnqp5wfW6AIyfM1nORsOyRE?usp=sharing)
 
 Official publication for CTRL-V:
 - To be updated. (ProQuest)
