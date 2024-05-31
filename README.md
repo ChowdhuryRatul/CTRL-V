@@ -20,6 +20,10 @@ In response, the human immune system generates B-cells and T-cells to protect ag
 
 To this end, we introduce a simulation platform, CTRL-V (Computational Tracking of Likely Viral Escape variants), that iteratively model the viral escape process of a viral antigenic protein when confronted with human antibodies. We show a test case demonstration in correctly recovering the infective strains of SARS-CoV-2 starting with the wildtype spike receptor-binding domain against known commercial neutralizing antibodies. CTRL-V unveils a putative viral mutational landscape by leveraging only the information about the antibody-antigen complex structure and amino acid interaction preferences in proteins. This information is critical to surveillance and antibody design strategies for preventing viral diseases in humans and livestock.
 
+## Notes
+
+In the [CTRL-V web server](https://colab.research.google.com/drive/1Pkw8MNW4uGnqp5wfW6AIyfM1nORsOyRE?usp=sharing),default values are configured for a CTRL-V job that performs a small viral escape simulation, estimated to take about 20-30 minutes to complete. For any custom CTRL-V jobs or to replicate jobs from the CTRL-V study, it is recommended to clone the [github repo](https://github.com/ChowdhuryRatul/CTRL-V), and run the CTRL-V job on a high-performance computer.
+
 ## Installation & Usage
 
 1. Download PyRosetta software as directed on [PyRosetta](https://www.pyrosetta.org/downloads).
