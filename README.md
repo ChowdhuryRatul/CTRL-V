@@ -22,7 +22,7 @@ To this end, we introduce a simulation platform, CTRL-V (Computational Tracking 
 
 ## Notes
 
-In the [CTRL-V web server](https://colab.research.google.com/drive/1Pkw8MNW4uGnqp5wfW6AIyfM1nORsOyRE?usp=sharing),default values are configured for a CTRL-V job that performs a small viral escape simulation, estimated to take about 20-30 minutes to complete. For any custom CTRL-V jobs or to replicate jobs from the CTRL-V study, it is recommended to clone the [github repo](https://github.com/ChowdhuryRatul/CTRL-V), and run the CTRL-V job on a high-performance computer.
+In the [CTRL-V web server](https://colab.research.google.com/drive/1Pkw8MNW4uGnqp5wfW6AIyfM1nORsOyRE?usp=sharing), default values are configured for a CTRL-V job that performs a small viral escape simulation, estimated to take about 20-30 minutes to complete. For any custom CTRL-V jobs or to replicate jobs from the CTRL-V study, it is recommended to clone the [github repo](https://github.com/ChowdhuryRatul/CTRL-V), and run the CTRL-V job on a high-performance computer.
 
 ## Installation & Usage
 
