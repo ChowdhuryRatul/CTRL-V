@@ -156,4 +156,5 @@ if __name__ == "__main__":
         print("")
 
     total_mutation.remove('WildType') # <-- WildType is not considered mutation, remove from the reporting set.
+    print("CTRL-V single point mutation predictions:")
     print(total_mutation)
