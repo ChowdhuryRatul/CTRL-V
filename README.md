@@ -31,7 +31,7 @@ In the [CTRL-V web server](https://colab.research.google.com/drive/1Pkw8MNW4uGnq
 2. Clone the repository to directory location,
 
 ```
-git clone https://github.com/YeeChuen/CTRL-V
+git clone https://github.com/ChowdhuryRatul/CTRL-V
 ```
 
 3. Add pdbs to the pdb files directory,
