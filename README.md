@@ -1,6 +1,6 @@
 ![CTRL-V logo](https://github.com/ChowdhuryRatul/CTRL-V/blob/main/CTRL-V_logo_2.png?raw=true)
 
-# CTRL-V: Computational Tracking of Likely Viral Escape Variant by Iterative Optimization
+# CTRL-V: Computational TRacking of Likely Variants
 
 Official github repo for CTRL-V software.
 - [Github repo](https://github.com/ChowdhuryRatul/CTRL-V)
