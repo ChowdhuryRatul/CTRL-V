@@ -2,6 +2,8 @@
 
 # CTRL-V: Computational TRacking of Likely Variants
 
+CTRL-V is a viral-escape-inspired, modular, protein biosensor design platform. Current implementation is limited to designing protein biosensors that iteratively evolves to discriminate between two protein targets. The biosensor molecule is called the design molecule (DM), and the preferred binder is called target molecule (TM) and the molecule to avoid is called non-target molecule (non-TM). If you want to use CTRL-V to discriminate between non protein molecules (ions and small molecules), reach out to Prof. Chowdhury (ratul@iastate.edu)
+
 Official github repo for CTRL-V software.
 - [Github repo](https://github.com/ChowdhuryRatul/CTRL-V)
 
